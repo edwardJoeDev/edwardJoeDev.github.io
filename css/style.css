@@ -1,0 +1,23 @@
+.navbar{
+    background: #dca166;
+    padding: 0 1em;
+    top: 0px;
+    z-index: 1;  
+}
+
+.navbar-nav{
+    text-align: right;
+    padding: 0 1em;
+}
+
+#navbar-brand{
+    font-family: 'Dekko', cursive;
+    font-size: x-large;
+}
+
+.homepage-bg{
+    height: 800px;
+    background-image: url(../img/KoffeeKat.png);
+    background-size: cover;
+    background-position: bottom;
+}
