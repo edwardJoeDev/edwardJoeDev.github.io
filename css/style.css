@@ -34,6 +34,7 @@
     text-align: center;
 }
 
+
 .card-heading{
     font-family: 'Dekko', cursive;
     font-size: 50px;
@@ -46,8 +47,7 @@
 } 
 
 .card{
-    margin: 1em;
-    padding: .3em;
+    margin: 1em 3em;
     background: #dca166;
 }
 
@@ -60,13 +60,27 @@
 }
 
 .about-section{
+    height: 600px;
     display: flex;
     justify-content: center;
+    align-items: center;
     margin: 5em;
     padding: 1em;
+    background-image: url(../img/cat\ bg.png);
+    background-position: bottom;
+    background-size: cover;
 }
 
+.About-KoffeeKat{
+    width: 500px;
+    height: 300px;
+    margin: 3em;
+    padding: 3em;
+
+}
 .KoffeeKat-img img{
     border-radius: 1em;
     box-shadow: 2px 2px 10px 2px gray;
+    margin: 3em;
+
 }
