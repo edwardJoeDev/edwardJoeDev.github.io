@@ -13,11 +13,15 @@
 <link href="https://fonts.googleapis.com/css2?family=Dekko&family=Yanone+Kaffeesatz:wght@200;300&display=swap" rel="stylesheet">
 <!-- font-family: 'Dekko', cursive;
 font-family: 'Yanone Kaffeesatz', sans-serif; -->
+<!-- link for animate -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
 </head>
 <body>
     <nav class="navbar navbar-expand-lg position-sticky">
         <div class="container-fluid navbar-dark" style="color: aliceblue;">
-          <a class="navbar-brand" id="navbar-brand" href="#"><span><img src="./img/Logo/KK.png" alt=""></span>
+          <a class="navbar-brand" id="navbar-brand" href="./index.html"><span><img src="./img/Logo/KK.png" alt=""></span>
             KoffeeKat</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -34,6 +38,9 @@ font-family: 'Yanone Kaffeesatz', sans-serif; -->
                 <a class="nav-link" href="#about-section">About</a>
               </li>
               <li class="nav-item">
+                <a class="nav-link" href="./pages/Menu.html">Our Menu</a>
+              </li>
+              <li class="nav-item">
                 <a class="nav-link">Disabled</a>
               </li>
             </ul>
@@ -43,65 +50,56 @@ font-family: 'Yanone Kaffeesatz', sans-serif; -->
     <div class="homepage-bg">
         <img src="" alt="">
     </div>
-    <div class="card-container" id="best-seller">
-        <h2 class="card-heading">
-            Enjoy our best seller!
-        </h2>
-        <p class="card-p">
-            The Cat Café provides you with a chance to relax and enjoy purr therapy in the heart of downtown San Diego.
-        </p>
-        <div class="card-bestseller d-flex justify-content-center">
-            <div class="card shadow-lg" id="card" style="width: 18rem;">
-                <img src="./img/menu/pasta 1.jpg" class="img-fluid" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-            </div>
-            <div class="card shadow-lg" id="card" style="width: 18rem;">
-                <img src="./img/menu/pasta 2.jpg" class="img-fluid" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-            </div>
-            <div class="card shadow-lg" id="card" style="width: 18rem;">
-                <img src="./img/menu/pasta 3.jpg" class="img-fluid" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-            </div>
+    <div class="welcome-section d-flex justify-content-center text-center">
+        <div>
+            <h2 class="card-heading">
+                Welcome to the best cafe in town
+            </h2>
+            <p>Looking for a unique and relaxing coffee experience? Look no further than our coffeeshop, where you can enjoy delicious coffee and cupcakes while also cuddling with our adorable cats. Our resident cats are friendly, playful, and always ready for some love and attention. Imagine sipping on a hot latte while a soft and furry feline purrs contentedly in your lap.</p>
         </div>
-        <br>
+    </div>
+    <div class="container-fluid card-container" id="best-seller">
         <h2 class="card-heading">
             Enjoy our best seller!
         </h2>
         <p class="card-p">
             The Cat Café provides you with a chance to relax and enjoy purr therapy in the heart of downtown San Diego.
         </p>
-        <div class="card-bestseller d-flex justify-content-center">
-            <div class="card shadow-lg" id="card" style="width: 18rem;">
-                <img src="./img/menu/pasta 1.jpg" class="img-fluid" alt="...">
+        <div class="card-bestseller d-flex justify-content-center" id="card-bestseller">
+            <div class="card shadow-lg" id="card" style="width: 18rem;" data-aos="fade-up">
+                <img src="./img/menu/cupcakes1.jpg" class="img-fluid" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     <a href="#" class="btn btn-primary">Go somewhere</a>
                 </div>
             </div>
-            <div class="card shadow-lg" id="card" style="width: 18rem;">
-                <img src="./img/menu/pasta 2.jpg" class="img-fluid" alt="...">
+            <div class="card shadow-lg" id="card" style="width: 18rem;" data-aos="fade-up">
+                <img src="./img/menu/cupcakes2.jpg" class="img-fluid" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     <a href="#" class="btn btn-primary">Go somewhere</a>
                 </div>
             </div>
-            <div class="card shadow-lg" id="card" style="width: 18rem;">
-                <img src="./img/menu/pasta 3.jpg" class="img-fluid" alt="...">
+            <div class="card shadow-lg" id="card" style="width: 18rem;" data-aos="fade-up">
+                <img src="./img/menu/cupcakes3.jpg" class="img-fluid" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            <div class="card shadow-lg" id="card" style="width: 18rem;" data-aos="fade-up">
+                <img src="./img/menu/cofee1.jpg" class="img-fluid" alt="...">
+                <div class="card-body" style="margin-top: 25px;">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            <div class="card shadow-lg" id="card" style="width: 18rem;" data-aos="fade-up">
+                <img src="./img/menu/coffee2.jpg" class="img-fluid" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -110,7 +108,7 @@ font-family: 'Yanone Kaffeesatz', sans-serif; -->
             </div>
         </div>
     </div>
-    <section class="about-section" id="about-section">
+    <section class="about-section container-fluid" id="about-section">
         <div class="About-KoffeeKat bg-light">
             <h2 class="">About KoffeeKat</h2>
             <p class="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore tenetur soluta porro exercitationem earum quam.</p>
@@ -119,5 +117,10 @@ font-family: 'Yanone Kaffeesatz', sans-serif; -->
             <img src="./img/International Cat Day_ 6 Best Ways To Celebrate All Things Feline - CatTime.jpg" alt="" height="300px">
         </div>
     </section>
+
+    <script>
+        AOS.init();
+      </script>
+      <script src="//code.tidio.co/ygebmnjnz76xslk4vezpallr0ia4e23c.js" async></script>
 </body>
 </html>
