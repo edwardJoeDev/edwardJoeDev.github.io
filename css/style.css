@@ -99,6 +99,11 @@
     border-radius: 2px;
 }
 
+#carousel-item img{
+    margin: 1em;
+    padding: 1em;
+}
+
 /* menu for cats */
 
 
