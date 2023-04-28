@@ -1,4 +1,8 @@
 /* Index.html */
+*{
+    margin: 0;
+    padding: 0;
+}
 
 .navbar{
     font-family: 'Dekko', cursive;
@@ -9,9 +13,10 @@
     z-index: 1;
 }
 
-.navbar-nav{
-    text-align: right;
-    padding: 0 1em;
+
+#navbar-nav{
+    padding: 0 2rem;
+    margin: 0;
 }
 
 #navbar-brand{
@@ -33,17 +38,29 @@
 /* welcome section */
 
 
-#welcome-section-content{
+#welcome-section-content #carousel-border{
     margin: 1em;
     padding: 1em;
 }
 
+#welcome-section-content{
+    width: 50%;
+    margin: 5em;
+    margin-right: 0;
+    padding: 2em;
+    background-color: #dca166;
+    color: white;
+}
+
 
 #carousel-img{
-    margin: 2em;
     width: 1000px;
-    border-radius: 10px;
-    box-shadow: 5px 5px 20px 5px #666666;
+}
+
+#carousel-border{
+    width: 50%;
+    margin: 5em;
+    margin-left: 0;
 }
 
 #carousel-title-font{
@@ -93,19 +110,63 @@
 #card-bestseller{
     margin: 1em;
     transition: 0.8s;
+
 }
 
 .card img{
     border-radius: 2px;
 }
 
-#carousel-item img{
-    margin: 1em;
-    padding: 1em;
+.meet-ourfeline-section{
+    margin: 0px;
+    padding: 20px 2px;
+    background-color: #ffafb6;
 }
 
-/* menu for cats */
+.meet-ourfeline-section h1{
+    text-align: center;
+    margin: 1em;
+    font-family: 'Dekko', cursive;
+    color: white;
+}
 
+.feline-gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 800px;
+    overflow: hidden;
+}
+
+.feline-gallery img:hover{
+    opacity: 1;
+    padding: 5px;
+    transition: 0.3s;
+}
+
+.feline-gallery img{
+    height: 50%;
+    /* padding: 4px; */
+    opacity: .8;
+
+}
+
+.feline-gallery-adoption{
+    display: flex;
+    align-self: center;
+    margin: 1em;
+
+}
+
+#feline-gallery-adoption-btn{
+    width: 150px;
+}
+
+#feline-gallery-adoption-btn a{
+    text-decoration: none;
+    display: block;
+    color: #666666;
+}
 
 #in-store-menu{
     display: flex;
